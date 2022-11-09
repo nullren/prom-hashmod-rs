@@ -1,7 +1,7 @@
 use std::io;
 use std::io::BufRead;
 use clap::Parser;
-use prom_hashmod_rs::hashmod;
+use prom_hashmod::hashmod;
 
 /// hashmod is a function used by prometheus to hash scrape targets to a specific shard
 #[derive(Parser, Debug)]
